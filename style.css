@@ -1,4 +1,6 @@
 
+/*General Styles*/
+
 :root {
     --bitcoin-orange: #F7931A;
     --soft-orange: #FFE9D5;
@@ -22,6 +24,8 @@ html {
     font-family: 'Open Sans', sans-serif;
 }
 
+/*Header Container Styles*/
+
 header {
     position: relative;
     display: flex;
@@ -31,4 +35,199 @@ header {
     min-width: 320px;
     height: 334px;
     text-align: center;
+    background: linear-gradient(207.8deg, #201E1C 16.69%, #F7931A 100%);
 }
+
+header img {
+    width: 150px;
+    height: 24px;
+    margin-top: 60px;
+    align-self: center;
+}
+
+.container {
+    width: 90%;
+    min-width: 288px;
+    max-width: 900px;
+    height: 218px;
+    margin-top: 40px;
+    text-align: center;
+    align-self: center;
+}
+
+.container h1 {
+    width: 100%;
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--just-white);
+}
+
+.container #text {
+    margin-top: 24px;
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    color: var(--soft-orange);
+}
+
+.container .button {
+    position: absolute;
+    top: 270px;
+    left: calc(50% - 118px);
+    display: block;
+    margin-top: 35px;
+    padding: 15px;
+    width: 229px;
+    height: 48px;
+    border-radius: 4px;
+    background-color: var(--off-white);
+    box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: var(--warm-black);
+    text-decoration: none;
+}
+
+.container .button span {
+    display: inline-block;
+    width: 13px;
+    height: 8px;
+    margin-left: 10px;
+    background-image: url('./assets/icons/down-arrow.svg');
+}
+
+/*Main Container Styles*/
+
+main {
+    width: 100%;
+    min-width: 320px;
+    height: auto;
+    background-color: var(--off-white);
+}
+
+main .tasas {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    min-width: 320px;
+    padding-top: 60px;
+    text-align: center;
+}
+
+.description h1 {
+    margin: 40px 15px 0 15px;
+    font-size: 2.4rem;
+    line-height: 2.6rem;
+    color: var(--warm-black);
+ }
+
+ .description p {
+    margin: 24px 15px 0 15px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: #757575;
+ }
+
+ .coins-table {
+    width: 70%;
+    min-width: 235px;
+    max-width: 500px;
+    height: 360px;
+    margin: 0 auto;
+    font-family: "Inter", sans-serif;
+ }
+
+ .coins-table #coins-table-title {
+    display: flex;
+    width: 86%;
+    margin: 48px auto 12px;
+    max-width: 229px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 2.3rem;
+    color: var(--bitcoin-orange);
+ }
+
+ .coins-table .main-coins-table {
+    width: 90%;
+    min-width: 230px;
+    max-width: 300px;
+    height: 250px;
+    margin: 0 auto;
+ }
+
+ .main-coins-table table {
+    width: 100%;
+    height: 100%;
+ }
+
+ .main-coins-table td {
+    width: 50%;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 1.9rem;
+    color: var(--grey);
+    background-color: var(--just-white);
+ }
+
+ .main-coins-table .table__top-left {
+    border-top-left-radius: 8px;
+ }
+
+ .main-coins-table .table__top-right {
+    border-top-right-radius: 8px;
+ }
+
+ .main-coins-table .table__bottom-right {
+    border-bottom-right-radius: 8px;
+ }
+
+ .main-coins-table .table__bottom-left {
+    border-bottom-left-radius: 8px;
+ }
+
+ .main-coins-table .table__right {
+    font-weight: normal;
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+    color: #757575;
+ }
+
+ .main-coins-table .down {
+    display: inline-block;
+    width: 14px;
+    height: 12px;
+    margin-left: 5px;
+    background-image: url(./assets/icons/trending-down.svg);
+    background-repeat: no-repeat;
+ }
+
+ .main-coins-table .up {
+    display: inline-block;
+    width: 14px;
+    height: 12px;
+    margin-left: 5px;
+    background-image: url(./assets/icons/trending-up.svg);
+    background-repeat: no-repeat;
+ }
+
+ 
+
+
+   
+
+
+
+
+
+
+
+
+
+
+    
+    
