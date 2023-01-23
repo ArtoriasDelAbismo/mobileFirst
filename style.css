@@ -97,7 +97,7 @@ header img {
     background-image: url('./assets/icons/down-arrow.svg');
 }
 
-/*Main Container Styles*/
+/*Main Container Styles 1st section*/
 
 main {
     width: 100%;
@@ -214,6 +214,79 @@ main .tasas {
     background-image: url(./assets/icons/trending-up.svg);
     background-repeat: no-repeat;
  }
+
+ /*Main Container Styles 2nd section*/
+
+.main-product-detail {
+   position: relative;
+   width: 100%;
+   min-width: 320px;
+   height: auto;
+   padding-top: 64px;
+   background-color: #201E1C;
+}
+
+.main-product-detail .chip {
+   position: absolute;
+   top: -10px;
+   left: calc(50% - 20px);
+   background-image: url(./assets/icons/batata.svg);
+   width: 40px;
+   height: 25px;
+}
+   
+
+
+.intro .main-title {
+   width: 80%;
+   margin: 0 auto;
+   text-align: center;
+   font-size: 2.4rem;
+   font-weight: 700;
+   line-height: 2.6rem;
+   color: var(--just-white);
+}
+
+.intro .main-subtitle {
+   width: 85%;
+   margin: 24px auto 32px;
+   text-align: center;
+   font-size: 1.4rem;
+   font-weight: 500;
+   line-height: 1.8rem;
+   color: #808080;
+}
+
+.main-cards-detail .product-detail-card {
+   width: 288px;
+   height: 152px;
+   margin: 16px auto;
+   border-radius: 8px;
+   background-color: var(--warm-black1);
+}
+
+.product-detail-card .product-detail-title {
+   font-size: 1.8rem;
+   font-weight: 700;
+   line-height: 1.8rem;
+   color: var(--just-white);
+}
+
+.product-detail-card .product-detail-body {
+   font-size: 1.4rem;
+   font-weight: 500;
+   line-height: 1.8rem;
+   color: #808080;
+}
+
+/*2nd section span images*/
+
+.clock {
+   background-image: url(./assets/icons/clock.svg);
+   width: 20px;
+}
+
+
 
  
 
