@@ -221,7 +221,7 @@ main .tasas {
    position: relative;
    width: 100%;
    min-width: 320px;
-   height: auto;
+   height: 932px;
    padding-top: 64px;
    background-color: #201E1C;
 }
@@ -258,21 +258,27 @@ main .tasas {
 }
 
 .main-cards-detail .product-detail-card {
-   width: 288px;
-   height: 152px;
+   width: 90%;
+   min-height: 150px;
+   min-width: 288px;
+   padding: 20px;
+   max-width: 400px;
    margin: 16px auto;
    border-radius: 8px;
    background-color: var(--warm-black1);
+   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.16);
 }
 
 .product-detail-card .product-detail-title {
    font-size: 1.8rem;
    font-weight: 700;
+   margin-top: 12px;
    line-height: 1.8rem;
    color: var(--just-white);
 }
 
 .product-detail-card .product-detail-body {
+   margin-top: 10px;
    font-size: 1.4rem;
    font-weight: 500;
    line-height: 1.8rem;
@@ -282,8 +288,44 @@ main .tasas {
 /*2nd section span images*/
 
 .clock {
+   display: inline-block;
    background-image: url(./assets/icons/clock.svg);
-   width: 20px;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+   width: 25px;
+   height: 25px;
+   
+}
+
+.eye {
+   display: inline-block;
+   background-image: url(./assets/icons/eye.svg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+   width: 25px;
+   height: 25px;
+}
+
+.dollar-sign {
+   display: inline-block;
+   background-image: url(./assets/icons/dollar-sign.svg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+   width: 25px;
+   height: 25px;
+}
+
+.check-circle {
+   display: inline-block;
+   background-image: url(./assets/icons/check-circle.svg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+   width: 25px;
+   height: 25px;
 }
 
 
