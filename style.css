@@ -328,6 +328,118 @@ main .tasas {
    height: 25px;
 }
 
+/*3rd section (image)*/
+
+.bitcoin-image-container {
+   width: 100%;
+   min-width: 320px;
+   height: 50vh;
+   background-image: url(./assets/img/bitcoinbaby2x.jpg);
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+
+/*4th section (Suscription Plans)*/
+
+.suscription {
+   width: 100%;
+   min-width: 320px;
+   height: auto;
+   background-color: var(--off-white);
+}
+
+.suscription-texts {
+   width: 90%;
+   min-width: 320px;
+   margin: 15px auto;
+   text-align: center;
+}
+
+.suscription-title {
+   margin-top: 50px;
+   font-size: 2.4rem;
+   font-weight: 700;
+   line-height: 2.6rem;
+   color: var(--warm-black);
+}
+
+.suscription-paragraph {
+   margin: 24px 20px;
+   font-size: 1.4rem;
+   font-weight: 500;
+   line-height: 1.8rem;
+   color: #757575;
+}
+
+/*Suscription Card*/
+
+.suscription-plans-card {
+   position: relative;
+   width: 190px;
+   height: 247px;
+   text-align: center;
+   margin: 50px auto;
+   border-radius: 8px;
+   background-color: var(--just-white);
+   box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+}
+
+.suscription-sign {
+   position: absolute;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 54%;
+   height: 31px;
+   top: -15px;
+   left: calc(50% - 52px);
+   border-radius: 8px;
+   font-family: 'Inter';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 12px;
+   color: var(--just-white);
+   line-height: 15px;
+   border: 1px solid var(--bitcoin-orange);
+   background-color: var(--bitcoin-orange);
+}
+
+.suscription-payments h2{
+   padding-top: 31px;
+   font-weight: 600;
+   font-size: 1.4rem;
+   line-height: 1.8rem;
+   
+}
+
+.suscription-number span {
+   font-size: 1.2rem;
+}
+
+.suscription-number {
+   font-family: 'Inter';
+   font-size: 5.2rem;
+   font-weight: 700;
+   line-height: 6.3rem;
+   letter-spacing: -4px;
+}
+
+.suscription-saving {
+   margin-bottom: 15px;
+   font-family: 'Inter';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 1.2rem;
+   line-height: 1.5rem;
+   color: #757575;
+}
+
+
+
+
+
+
 
 
  
