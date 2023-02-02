@@ -377,6 +377,7 @@ main .tasas {
 .suscription-plans-card {
    position: relative;
    width: 190px;
+   min-width: 190px;
    height: 247px;
    text-align: center;
    margin: 50px auto;
@@ -387,6 +388,7 @@ main .tasas {
 
 .suscription-sign {
    position: absolute;
+   scroll-snap-align: center;
    display: flex;
    align-items: center;
    justify-content: center;
@@ -433,6 +435,47 @@ main .tasas {
    font-size: 1.2rem;
    line-height: 1.5rem;
    color: #757575;
+}
+
+.anchor {
+   width: 100%;
+   display: flex;
+   justify-content: center;
+}
+
+.button {
+   width: 70%;
+   height: 48px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-weight: 700;
+   font-size: 1.4rem;
+   text-decoration: none;
+   color: #201E1C;
+   border: 2px solid var(--bitcoin-orange);
+   border-radius: 8px;
+   border-color: var(--bitcoin-orange);
+}
+
+.button span {
+   display: flex;
+    width: 30px;
+    height: 44px;
+    background-image: url(./assets/icons/orange-right-arrow.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.suscription-plans-slider {
+   display: flex;
+   padding: 0 160px;
+   gap: 50px;
+   height: 316px;
+   overflow-x: scroll;
+   overflow-y: hidden;
+   overscroll-behavior-x: contain;
+   scroll-snap-type: x proximity;
 }
 
 
