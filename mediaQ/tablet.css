@@ -1,0 +1,11 @@
+.main-product-detail {
+    height: auto;
+    padding-bottom: 50px;
+}
+
+.main-cards-detail {
+    display: flex;
+    flex-wrap: wrap;
+    width: 930px;
+    margin: 0 auto;
+}
